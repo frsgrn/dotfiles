@@ -218,9 +218,9 @@ format-disconnected =
 type = internal/date
 interval = 1
 
-date =
+date = " %d/%m"
 ;date-alt = " %Y-%m-%d"
-format-prefix="time "
+format-prefix="time/date "
 format-prefix-foreground=${colors.foreground-alt}
 time = %H:%M
 ;time-alt = %H:%M:%S
