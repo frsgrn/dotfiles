@@ -11,10 +11,16 @@ $ rm -rf ~/.config/i3 && ln -sf ~/dotfiles/.config/i3 ~/.config/ # Config create
 $ ln -sf ~/dotfiles/.config/compton.conf ~/.config/compton.conf # If compton is installed
 $ ln -sf ~/dotfiles/.Xresources ~/.Xresources # If you're using urxvt
 ```
-## Required packages
+## Required packages and fonts
 ```bash
-(Available from aptitude)
-$ sudo apt-get install rxvt-unicode xclip scrot maim fonts-powerline rofi feh playerctl compton
+# Available from aptitude
+$ sudo apt-get install curl zsh rxvt-unicode xclip scrot maim fonts-powerline rofi feh playerctl compton
 ```
+
+```bash
+# Install oh-my-zsh and set as default shell
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+[Consolas font](https://freefontsdownload.net/free-consolas-font-33098.htm)
 [Polybar](https://www.reddit.com/r/linux4noobs/comments/9690ia/how_do_i_install_polybar_on_ubuntu_1804/ecjh4hn?utm_source=share&utm_medium=web2x)
 [I3-gaps](https://gist.github.com/boreycutts/6417980039760d9d9dac0dd2148d4783)

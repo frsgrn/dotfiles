@@ -1,4 +1,4 @@
-URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:pixelsize=14,xft:PowerlineSymbols
+URxvt.font: xft:consolas:size=12
 URxvt.scrollBar: false
 
 URxvt.internalBorder: 20
